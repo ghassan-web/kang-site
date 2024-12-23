@@ -1,0 +1,122 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background: linear-gradient(120deg, #000000, #00ff00);
+    animation: background-animate 5s infinite alternate;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+    border-bottom: 2px solid #00ff00;
+}
+
+header .logo {
+    color: #00ff00;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+header nav a.active {
+    color: #00ff00;
+}
+
+
+section h1 {
+    text-align: center;
+    color: #00ff00;
+    margin: 20px 0;
+}
+
+.education-level {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.education-level .level {
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.education-level .level:hover {
+    transform: scale(1.05);
+    border-color: #00ff00;
+}
+
+.education-level .education-image {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+}
+
+
+.sertifikat-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.sertifikat-item {
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.sertifikat-item:hover {
+    transform: scale(1.05);
+    border-color: #00ff00;
+}
+
+.sertifikat-item img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    color: #00ff00;
+    border-top: 2px solid #00ff00;
+}
+
+@keyframes background-animate {
+    0% {
+        background: linear-gradient(120deg, #000000, #00ff00);
+    }
+    100% {
+        background: linear-gradient(120deg, #00ff00, #000000);
+    }
+}

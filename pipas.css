@@ -1,0 +1,68 @@
+
+body {
+    background-color: black;
+    color: green;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #111;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: green;
+}
+
+header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+header nav a.active {
+    text-decoration: underline;
+}
+
+section#education {
+    padding: 20px;
+}
+
+section#education h1 {
+    text-align: center;
+    color: green;
+}
+
+.education-level {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid green;
+    border-radius: 8px;
+}
+
+.education-level h2 {
+    margin-top: 0;
+    color: green;
+}
+
+.education-image {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    border: 1px solid green;
+    border-radius: 8px;
+}
+
+.education-text {
+    line-height: 1.6;
+    color: green;
+}
